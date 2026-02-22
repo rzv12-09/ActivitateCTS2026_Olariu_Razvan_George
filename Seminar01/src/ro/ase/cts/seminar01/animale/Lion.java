@@ -7,8 +7,8 @@ public class Lion extends Animal{
         System.out.printf("ZooKeeperul %s a hranit Leul %s",ZooKeeperName,super.name);
     }
 
-    public Lion(String name, int age) {
+    public Lion(String name, int age, float greutate) {
         super(name, age);
+        this.greutate = greutate;
     }
-
 }
