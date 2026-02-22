@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivitateCTS2026_Olariu_Razvan_George.iml" filepath="$PROJECT_DIR$/ActivitateCTS2026_Olariu_Razvan_George.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar01/Seminar01.iml" filepath="$PROJECT_DIR$/Seminar01/Seminar01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar01-model-universitar/Seminar01-model-universitar.iml" filepath="$PROJECT_DIR$/Seminar01-model-universitar/Seminar01-model-universitar.iml" />
     </modules>
   </component>
 </project>

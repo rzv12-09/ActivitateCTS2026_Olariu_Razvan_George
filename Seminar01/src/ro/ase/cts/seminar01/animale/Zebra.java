@@ -4,7 +4,7 @@ public class Zebra extends Animal{
 
     @Override
     public void eat(String ZooKeeperName) {
-        System.out.printf("ZooKeeperul %s a hranit Zebra %s",ZooKeeperName,super.name);
+        System.out.printf("\nZooKeeperul %s a hranit Zebra %s",ZooKeeperName,super.name);
 
     }
 
