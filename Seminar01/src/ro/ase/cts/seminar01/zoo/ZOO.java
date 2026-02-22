@@ -2,12 +2,13 @@ package ro.ase.cts.seminar01.zoo;
 
 import ro.ase.cts.seminar01.animale.Animal;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ZOO {
     private String name;
-    ZooKeeper zooKeeper;
-    List<Animal> animals;
+    private ZooKeeper zooKeeper;
+    private List<Animal> animals;
 
     public void feedAllAnimals(){
         for(Animal a : animals){
@@ -15,9 +16,13 @@ public class ZOO {
         }
     }
 
-    public ZOO(String name, ZooKeeper zooKeeper, List<Animal> animals) {
+    public ZOO(String name, ZooKeeper zooKeeper) {
         this.name = name;
         this.zooKeeper = zooKeeper;
-        this.animals = animals;
+        this.animals = new ArrayList<>();
+    }
+
+    public void addAnimal(Animal animal){
+        animals.add(animal);
     }
 }
