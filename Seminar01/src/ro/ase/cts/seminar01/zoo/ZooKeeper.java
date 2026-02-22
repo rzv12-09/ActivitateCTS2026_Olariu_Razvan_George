@@ -11,4 +11,8 @@ public class ZooKeeper {
     public ZooKeeper(String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
 }
