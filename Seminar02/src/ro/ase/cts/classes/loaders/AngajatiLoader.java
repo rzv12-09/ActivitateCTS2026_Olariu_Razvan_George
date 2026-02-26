@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AngajatiLoader implements IDataLoader {
+public class AngajatiLoader extends DataLoader {
 
     @Override
     public List<Aplicant> load(String file) throws FileNotFoundException {
@@ -18,18 +18,14 @@ public class AngajatiLoader implements IDataLoader {
         List<Aplicant> angajati = new ArrayList<Aplicant>();
 
         while (input2.hasNext()) {
-            String nume = input2.next();
-            String prenume = input2.next();
-            int varsta = input2.nextInt();
-            int punctaj = input2.nextInt();
-            int nr = input2.nextInt();
-            String[] vect = new String[5];
-            for (int i = 0; i < nr; i++)
-                vect[i] = input2.next();
+            Aplicant aplicant = new Angajat();
+            super.loadAplicantData(input2,aplicant);
             int salariu = input2.nextInt();
             String ocupatie = input2.next();
-            Angajat a = new Angajat(nume, prenume, varsta, punctaj, nr, vect, salariu, ocupatie);
-            angajati.add(a);
+            Angajat angajat = (Angajat) aplicant;
+            angajat.setSalariu(salariu);
+            angajat.setOcupatie(ocupatie);
+            angajati.add(angajat);
         }
         input2.close();
         return angajati;
