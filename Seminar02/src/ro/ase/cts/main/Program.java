@@ -10,11 +10,14 @@ public class Program {
 
 	public static void main(String[] args) {
 		List<Aplicant> listaAngajati;
-
+		Aplicant.setPragPunctaj(85);
 		try {
 			listaAngajati = (new AngajatiLoader()).load("angajati.txt");
-			for(Aplicant angajat:listaAngajati)
+			for(Aplicant angajat:listaAngajati) {
 				System.out.println(angajat.toString());
+				angajat.afisareFinantare();
+				angajat.afisareStatut();
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

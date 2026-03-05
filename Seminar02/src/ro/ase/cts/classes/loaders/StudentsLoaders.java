@@ -1,6 +1,5 @@
 package ro.ase.cts.classes.loaders;
 
-import ro.ase.cts.classes.Angajat;
 import ro.ase.cts.classes.Aplicant;
 import ro.ase.cts.classes.Student;
 
@@ -21,10 +20,10 @@ public class StudentsLoaders extends DataLoader {
         while (input.hasNext()) {
            Aplicant aplicant = new Student();
            super.loadAplicantData(input,aplicant);
-           int an_studii = input.nextInt();
+           int anStudii = input.nextInt();
            String facultate = (input.next()).toString();
            Student student = (Student) aplicant;
-           student.setAn_studii(an_studii);
+           student.setAnStudii(anStudii);
            student.setFacultate(facultate);
            studenti.add(student);
         }
