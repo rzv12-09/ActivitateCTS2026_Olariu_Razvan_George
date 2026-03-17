@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivitateCTS2026_Olariu_Razvan_George.iml" filepath="$PROJECT_DIR$/ActivitateCTS2026_Olariu_Razvan_George.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeminarRecuperare/Builder/Builder.iml" filepath="$PROJECT_DIR$/SeminarRecuperare/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar04/Factory/Factory.iml" filepath="$PROJECT_DIR$/Seminar04/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar01/Seminar01.iml" filepath="$PROJECT_DIR$/Seminar01/Seminar01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar01-model-universitar/Seminar01-model-universitar.iml" filepath="$PROJECT_DIR$/Seminar01-model-universitar/Seminar01-model-universitar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar02/Seminar02.iml" filepath="$PROJECT_DIR$/Seminar02/Seminar02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar04/Seminar04.iml" filepath="$PROJECT_DIR$/Seminar04/Seminar04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeminarRecuperare/SeminarRecuperare.iml" filepath="$PROJECT_DIR$/SeminarRecuperare/SeminarRecuperare.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar04/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Seminar04/Singleton/Singleton.iml" />
     </modules>
   </component>
