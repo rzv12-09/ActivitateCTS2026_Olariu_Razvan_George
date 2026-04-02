@@ -1,5 +1,7 @@
 package ro.ase.cts.restaurant03.mancare;
 
+import java.util.UUID;
+
 public class CheeseCake extends  Desert {
 
     public CheeseCake(double calorii) {

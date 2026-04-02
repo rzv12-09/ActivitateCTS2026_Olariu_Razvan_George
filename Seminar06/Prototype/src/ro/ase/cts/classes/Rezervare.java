@@ -54,4 +54,6 @@ public class Rezervare implements PrototypeRezervare {
         sb.append('}');
         return sb.toString();
     }
+
+
 }
