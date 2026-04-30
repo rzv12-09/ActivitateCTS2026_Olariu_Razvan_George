@@ -15,7 +15,8 @@ public class Main {
         ((Departament)spital).adaugaStructua(management);
         ((Departament)administrativ).adaugaStructua(secretariat);
 
-        spital.afiseazaDetaliiStructura();
+        spital.afiseazaDetaliiStructura("  ");
+
         ((Departament) spital).stergeStructura(management);
         ((Departament)administrativ).adaugaStructua(administrativ);
 

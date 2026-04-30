@@ -5,8 +5,8 @@ public class Sectie implements Structura {
     public int nrAngajati;
 
     @Override
-    public void afiseazaDetaliiStructura() {
-        System.out.println("Nume sectie: " + this.numeSectie + " Nr Angajati:" + this.nrAngajati);
+    public void afiseazaDetaliiStructura(String spatii) {
+        System.out.println(spatii + "Nume sectie: " + this.numeSectie + " Nr Angajati:" + this.nrAngajati);
     }
 
     public Sectie(String numeSectie, int nrAngajati) {

@@ -8,11 +8,11 @@ public class Departament implements Structura {
     private List<Structura> subStructuri;
 
     @Override
-    public void afiseazaDetaliiStructura() {
-        System.out.println("Nume departament: " + this.numeDep);
+    public void afiseazaDetaliiStructura(String spatii) {
+        System.out.println(spatii + "Nume departament: " + this.numeDep);
         System.out.println("Subdepartamente:");
         for (Structura structura : subStructuri) {
-            structura.afiseazaDetaliiStructura();
+            structura.afiseazaDetaliiStructura(spatii + "   ");
         }
     }
 
