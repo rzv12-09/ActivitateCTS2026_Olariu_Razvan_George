@@ -3,14 +3,24 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivitateCTS2026_Olariu_Razvan_George.iml" filepath="$PROJECT_DIR$/ActivitateCTS2026_Olariu_Razvan_George.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/AdapterPregatire/AdapterPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/AdapterPregatire/AdapterPregatire.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeminarRecuperare/Builder/Builder.iml" filepath="$PROJECT_DIR$/SeminarRecuperare/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chain/Chain.iml" filepath="$PROJECT_DIR$/Chain/Chain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/ChainPregatire/ChainPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/ChainPregatire/ChainPregatire.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/Command.iml" filepath="$PROJECT_DIR$/Command/Command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/CommandPregatire/CommandPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/CommandPregatire/CommandPregatire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/CompositePregatire/CompositePregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/CompositePregatire/CompositePregatire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/DecoratorPregatire/DecoratorPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/DecoratorPregatire/DecoratorPregatire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/FacadePregatire/FacadePregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/FacadePregatire/FacadePregatire.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar04/Factory/Factory.iml" filepath="$PROJECT_DIR$/Seminar04/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar06/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/Seminar06/FactoryMethod/FactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/FlyweightPregatire/FlyweightPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/FlyweightPregatire/FlyweightPregatire.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/ObserverPregatire/ObserverPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/ObserverPregatire/ObserverPregatire.iml" />
       <module fileurl="file://$PROJECT_DIR$/PregatireTest1/PregatireTest1.iml" filepath="$PROJECT_DIR$/PregatireTest1/PregatireTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/PregatireTest2.iml" filepath="$PROJECT_DIR$/PregatireTest2/PregatireTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar06/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Seminar06/Prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/ProxyPregatire/ProxyPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/ProxyPregatire/ProxyPregatire.iml" />
       <module fileurl="file://$PROJECT_DIR$/PregatireTest1/RecapitulareBuilder/RecapitulareBuilder.iml" filepath="$PROJECT_DIR$/PregatireTest1/RecapitulareBuilder/RecapitulareBuilder.iml" />
       <module fileurl="file://$PROJECT_DIR$/PregatireTest1/RecapitulareFactoryMethod/RecapitulareFactoryMethod.iml" filepath="$PROJECT_DIR$/PregatireTest1/RecapitulareFactoryMethod/RecapitulareFactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/PregatireTest1/RecapitularePrototype/RecapitularePrototype.iml" filepath="$PROJECT_DIR$/PregatireTest1/RecapitularePrototype/RecapitularePrototype.iml" />
@@ -27,6 +37,8 @@
       <module fileurl="file://$PROJECT_DIR$/SeminarRecuperare/SeminarRecuperare.iml" filepath="$PROJECT_DIR$/SeminarRecuperare/SeminarRecuperare.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar04/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Seminar04/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PregatireTest2/StrategyPregatire/StrategyPregatire.iml" filepath="$PROJECT_DIR$/PregatireTest2/StrategyPregatire/StrategyPregatire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnitTesting/UnitTesting.iml" filepath="$PROJECT_DIR$/UnitTesting/UnitTesting.iml" />
     </modules>
   </component>
 </project>
