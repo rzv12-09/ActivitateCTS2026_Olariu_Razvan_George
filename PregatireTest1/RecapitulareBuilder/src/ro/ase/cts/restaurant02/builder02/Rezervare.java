@@ -44,7 +44,7 @@ public class Rezervare {
 
 
         @Override
-        public ro.ase.cts.restaurant02.builder02.Rezervare build() {
+        public Rezervare build() {
             return new Rezervare(this);
         }
 

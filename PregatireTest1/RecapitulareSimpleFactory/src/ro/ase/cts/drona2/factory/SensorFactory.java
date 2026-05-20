@@ -1,6 +1,7 @@
 package ro.ase.cts.drona2.factory;
 
 import ro.ase.cts.drona2.senzori.*;
+import ro.ase.cts.spital.drona2.senzori.*;
 
 public class SensorFactory {
     private SensorFactory(){}

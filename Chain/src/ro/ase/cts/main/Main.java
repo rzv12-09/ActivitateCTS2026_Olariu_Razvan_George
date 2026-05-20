@@ -1,6 +1,7 @@
 package ro.ase.cts.main;
 
 import ro.ase.cts.clase.*;
+import ro.ase.cts.spital.clase.*;
 
 public class Main {
     static void main(String[] args) {

@@ -1,7 +1,5 @@
 package ro.ase.cts.flyweight.clase;
 
-import ro.ase.cts.proxy.clase.MijlocTransport;
-
 import java.util.HashMap;
 import java.util.Map;
 

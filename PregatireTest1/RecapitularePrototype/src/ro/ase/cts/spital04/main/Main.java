@@ -3,7 +3,6 @@ package ro.ase.cts.spital04.main;
 import ro.ase.cts.spital04.classes.PrototypeReteta;
 import ro.ase.cts.spital04.classes.Reteta;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 

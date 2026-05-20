@@ -1,7 +1,5 @@
 package ro.ase.cts.spital.builder02;
 
-import ro.ase.cts.spital.builder01.AbstractBuilder;
-
 public class InternareBuilder02 implements AbstractBuilder02 {
     private boolean arePatRabatabil;
     private boolean areMicDejunInclus;

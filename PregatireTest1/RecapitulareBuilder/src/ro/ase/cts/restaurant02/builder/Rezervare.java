@@ -1,7 +1,5 @@
 package ro.ase.cts.restaurant02.builder;
 
-import ro.ase.cts.restaurant02.builder02.AbstractBuilder;
-
 public class Rezervare {
     private String numeClient;
     private boolean areScauneErgonomice;

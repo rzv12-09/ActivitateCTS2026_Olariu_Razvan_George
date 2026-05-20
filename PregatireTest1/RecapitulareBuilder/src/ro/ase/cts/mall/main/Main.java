@@ -1,6 +1,5 @@
 package ro.ase.cts.mall.main;
 
-import ro.ase.cts.mall.builder02.MagazinBuilder;
 import ro.ase.cts.mall.builder03.Magazin;
 
 public class Main {

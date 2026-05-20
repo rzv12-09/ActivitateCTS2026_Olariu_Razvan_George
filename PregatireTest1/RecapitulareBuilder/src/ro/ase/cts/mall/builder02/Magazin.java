@@ -1,7 +1,5 @@
 package ro.ase.cts.mall.builder02;
 
-import ro.ase.cts.mall.builder02.TipPodea;
-
 public class Magazin {
     private final String denumire;
     private final double suprafata;

@@ -1,5 +1,6 @@
 package ro.ase.cts.stb.main;
 
+import ro.ase.cts.spital.stb.clase.*;
 import ro.ase.cts.stb.clase.*;
 
 public class Main {

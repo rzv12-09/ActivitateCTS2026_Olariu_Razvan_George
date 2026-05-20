@@ -1,7 +1,8 @@
 package ro.ase.cts.restaurant.factory;
 
-import ro.ase.cts.restaurant.classes.*;
-import ro.ase.cts.restaurant.enums.TipDesert;
+import ro.ase.cts.restaurant.classes.FelMancare;
+import ro.ase.cts.restaurant.classes.SupaDeLegume;
+import ro.ase.cts.restaurant.classes.SupaDeVita;
 import ro.ase.cts.restaurant.enums.TipFelMancare;
 import ro.ase.cts.restaurant.enums.TipSupa;
 

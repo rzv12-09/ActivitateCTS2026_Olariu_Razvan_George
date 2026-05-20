@@ -1,7 +1,6 @@
 package ro.ase.cts.drona.main;
 
 import ro.ase.cts.drona.clase.AbstractModule;
-import ro.ase.cts.drona.clase.ModulDrona;
 import ro.ase.cts.drona.factory.ModulFactory;
 import ro.ase.cts.drona.factory.TipModul;
 

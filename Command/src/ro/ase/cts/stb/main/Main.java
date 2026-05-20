@@ -1,7 +1,6 @@
 package ro.ase.cts.stb.main;
 
 import ro.ase.cts.stb.clase.Autobuz;
-import ro.ase.cts.stb.clase.Command;
 import ro.ase.cts.stb.clase.Operator;
 import ro.ase.cts.stb.clase.Plecare;
 

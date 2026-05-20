@@ -1,8 +1,5 @@
 package ro.ase.cts.mall.builder02;
 
-import ro.ase.cts.mall.builder02.Magazin;
-import ro.ase.cts.mall.builder02.TipPodea;
-
 public class MagazinBuilder implements AbstractBuilder {
     private String denumire;
     private double suprafata;

@@ -3,8 +3,6 @@ package ro.ase.cts.restaurant01.main;
 import ro.ase.cts.restaurant01.factory.SupaFactory;
 import ro.ase.cts.restaurant01.factory.TipSupa;
 import ro.ase.cts.restaurant01.supe.Supa;
-import ro.ase.cts.restaurant01.supe.SupaLegume;
-import ro.ase.cts.restaurant01.supe.SupaVita;
 
 public class Main {
     static void main(String[] args) throws Exception {

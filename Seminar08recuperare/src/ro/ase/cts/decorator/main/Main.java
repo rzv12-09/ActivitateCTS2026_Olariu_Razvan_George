@@ -7,8 +7,6 @@ import ro.ase.cts.decorator.decorator.NotaDePlataDecorator;
 import ro.ase.cts.decorator.decorator.NotaDePlataFelicitare;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
-import java.util.Date;
 
 public class Main {
     static void main(String[] args) {
