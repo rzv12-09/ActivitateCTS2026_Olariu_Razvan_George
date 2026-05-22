@@ -1,14 +1,14 @@
 package ro.ase.cts.restaurant.clase;
 
-public class Client {
+public class Client implements IClient {
     private String nume;
-    private String nrTelefon;
+    private String telefon;
     private String email;
 
-    public Client(String email, String nrTelefon, String nume) {
+    public Client(String email, String nume, String telefon) {
         this.email = email;
-        this.nrTelefon = nrTelefon;
         this.nume = nume;
+        this.telefon = telefon;
     }
 
     @Override
@@ -16,8 +16,14 @@ public class Client {
         final StringBuilder sb = new StringBuilder("Client{");
         sb.append("email='").append(email).append('\'');
         sb.append(", nume='").append(nume).append('\'');
-        sb.append(", nrTelefon='").append(nrTelefon).append('\'');
+        sb.append(", telefon='").append(telefon).append('\'');
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    public void afiseazaDetaliiRezervareClient(Rezervare rezervare) {
+        System.out.println("Detalii client: " + this.toString());
+        System.out.println("Detalii rezervare: " + rezervare.toString());
     }
 }

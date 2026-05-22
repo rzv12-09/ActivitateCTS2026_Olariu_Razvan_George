@@ -13,6 +13,7 @@ public class Main {
         ro.ase.cts.adapter.spital.Medicament medicamentSpital = new ro.ase.cts.adapter.spital.Medicament("algocamin-reteta",40.7);
         medicamentFarmacie.cumparaMedicament();
         medicamentSpital.achizitioneazaMedicament();
+
         procuraMedicament(medicamentFarmacie);
         MedicamentAdapter medicamentAdapter = new MedicamentAdapter(medicamentSpital);
         procuraMedicament(medicamentAdapter);

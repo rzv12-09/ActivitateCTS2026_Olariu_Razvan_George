@@ -15,5 +15,6 @@ public class Main {
         int a = 1;
         NotaDePlataDecorator notaDePlataDecorator = (a == 1) ?  new NotaDePlataFelicitare(notaDePlata) : new NotaDePlata1Mai(notaDePlata);
         notaDePlataDecorator.printeazaFelicitare();
+        notaDePlataDecorator.printeaza();
     }
 }
